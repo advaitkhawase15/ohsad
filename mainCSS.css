@@ -1,0 +1,25 @@
+.main{
+    display:grid;
+    grid-template-areas:
+    ' a a' 
+    ' b f '
+    ' c c ';
+    width: 900px;
+    height: 70vh;
+}
+.one{
+    grid-area: a;
+    background-color: aliceblue;
+}
+.twoa{
+    grid-area: b;
+    background-color: aqua;
+}
+.twob{
+    grid-area: f;
+    background-color: beige;
+}
+.three{
+    grid-area: c;
+    background-color: rgb(2, 29, 29);
+}
